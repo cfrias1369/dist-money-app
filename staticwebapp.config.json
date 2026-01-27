@@ -1,0 +1,11 @@
+{
+  "routes": [
+    {
+      "route": "/*",
+      "rewrite": "/index.html"
+    }
+  ],
+  "globalHeaders": {
+    "cache-control": "no-cache, no-store, must-revalidate"
+  }
+}
